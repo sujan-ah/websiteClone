@@ -1,0 +1,42 @@
+.help {
+  width: 1615px;
+  height: 165px;
+  background-color: #fab811;
+  margin-bottom: 110px;
+}
+.help .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.help .box .left {
+  width: 35%;
+  margin-left: 100px;
+}
+.help .box .right {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+}
+.help .box .left h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  width: 203px;
+  margin-top: 30px;
+}
+.help .box .right h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  width: 300px;
+  margin-top: 30px;
+}
+.help .box .right .wt {
+  width: 10px;
+  height: 60px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-right: 10px;
+}

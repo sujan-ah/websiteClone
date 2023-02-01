@@ -1,0 +1,5 @@
+font-family: 'Roboto', sans-serif;
+font-family: 'Noto Serif Georgian', serif;
+font-family: 'Cardo', serif;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Nunito Sans', sans-serif;

@@ -1,0 +1,36 @@
+.school {
+  margin-bottom: 72px;
+}
+
+.school .box {
+  display: flex;
+}
+
+.school .box .left {
+  width: 49%;
+  height: 320px;
+  background-color: aquamarine;
+  width: 450px;
+  margin-left: 180px;
+}
+.school .box .right h2 {
+  width: 49%;
+  font-family: "Paytone One", sans-serif;
+  font-size: 40px;
+  width: 594px;
+  margin-left: 28px;
+}
+.school .box .right p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  width: 594px;
+  margin-left: 28px;
+  line-height: 30px;
+}
+.school .box .right p .read {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fab811;
+}

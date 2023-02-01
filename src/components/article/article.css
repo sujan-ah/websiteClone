@@ -1,0 +1,45 @@
+.articles {
+  margin-bottom: 100px;
+}
+
+.articles .box {
+  display: flex;
+}
+
+.articles .box .text {
+  width: 70%;
+  margin-left: 80px;
+}
+.articles .box .text h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 38px;
+  width: 650px;
+}
+.articles .box .text h5 {
+  font-family: "Noto Serif Georgian", serif;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+.articles .box .text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  width: 690px;
+}
+.articles .box .text .read {
+  color: #fab811;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.articles .box .image {
+  width: 341px;
+  height: 442px;
+  background-color: aquamarine;
+  margin-right: 100px;
+}

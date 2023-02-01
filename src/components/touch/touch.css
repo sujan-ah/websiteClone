@@ -1,0 +1,64 @@
+.touch {
+  width: 1585px;
+  height: 144px;
+  background-color: #fab811;
+  margin-bottom: 710px;
+  margin-left: 288px;
+}
+.touch .box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 485px;
+}
+.touch .box h3 {
+  font-family: "Noto Serif Georgian", serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.touch .box p {
+  font-family: "Noto Serif Georgian", serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.touch .box2 {
+  display: flex;
+  margin-left: -192px;
+  margin-top: -107px;
+}
+.touch .box2 .img {
+  width: 673px;
+  height: 708px;
+  background-color: aquamarine;
+}
+.touch .box2 .form {
+  margin-top: 160px;
+  margin-left: 30px;
+}
+.touch .box2 .form .input {
+  width: 595px;
+  height: 56px;
+  border-radius: 0%;
+  margin-bottom: 22px;
+}
+.touch .box2 .form .msg {
+  width: 595px;
+  padding-bottom: 140px;
+  border-radius: 0%;
+  margin-bottom: 22px;
+}
+.touch .box2 .form .btn {
+  width: 120px;
+  height: 40px;
+  background-color: #fff;
+  border: 2px solid #fab811;
+  color: #fab811;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+.touch .box2 .form .btn:hover {
+  background-color: #fab811;
+  color: #fff;
+}
