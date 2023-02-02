@@ -1,0 +1,92 @@
+.meet {
+  width: 100%;
+  height: 686px;
+  background-color: #fab811;
+  margin-bottom: 70px;
+}
+.meet .box {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.meet .box .text {
+  width: 187px;
+  font-family: "Noto Serif Georgian", serif;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 45px;
+  margin-left: 150px;
+  color: #2e353e;
+}
+.meet .box .img1 {
+  width: 386px;
+}
+.meet .box .img1 h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  color: #000000;
+}
+.meet .box .img1 h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 22px;
+}
+.meet .box .img1 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+}
+.meet .box .img2 {
+  width: 386px;
+}
+.meet .box .img2 h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  color: #000000;
+}
+.meet .box .img2 h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 22px;
+}
+.meet .box .img2 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+}
+.meet .box .img3 {
+  width: 386px;
+}
+.meet .box .img3 h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  color: #000000;
+}
+.meet .box .img3 h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 22px;
+}
+.meet .box .img3 p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000000;
+}

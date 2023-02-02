@@ -1,0 +1,180 @@
+.wbanner {
+  width: 100%;
+  height: 830px;
+  background-color: #e0d3c7;
+}
+.wbanner .box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.wbanner .box .img {
+  width: 375px;
+  height: 515px;
+  margin-left: 20px;
+}
+.wbanner .box .img:hover .board {
+  z-index: 1;
+}
+.wbanner .box .img .board {
+  background-color: #2d2a28;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #dba400;
+  width: 250px;
+  height: 86px;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 270px;
+  border-radius: 5px;
+  z-index: -1;
+}
+.wbanner .box .img .board span {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.wbanner .box .img .board p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.wbanner .box .img .board a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #dba400;
+  text-decoration: none;
+}
+
+.wbanner .box .img2 {
+  width: 410px;
+  height: 274px;
+  position: absolute;
+  top: 180px;
+  left: 470px;
+}
+.wbanner .box .img2:hover .board {
+  z-index: 1;
+}
+
+.wbanner .box .img2 .board {
+  background-color: #2d2a28;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #dba400;
+  width: 250px;
+  height: 110px;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 270px;
+  border-radius: 5px;
+  z-index: -1;
+}
+.wbanner .box .img2 .board span {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.wbanner .box .img2 .board p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.wbanner .box .img2 .board a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #dba400;
+  text-decoration: none;
+}
+
+.wbanner .box .img3 {
+  width: 630px;
+  height: 294px;
+  position: absolute;
+  top: 500px;
+  left: 295px;
+}
+.wbanner .box .img3:hover .board {
+  z-index: 1;
+}
+
+.wbanner .box .img3 .board {
+  background-color: #2d2a28;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #dba400;
+  width: 250px;
+  height: 86px;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 514px;
+  border-radius: 5px;
+  z-index: -1;
+}
+.wbanner .box .img3 .board span {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.wbanner .box .img3 .board p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.wbanner .box .img3 .board a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #dba400;
+  text-decoration: none;
+}
+.wbanner .box .img4 {
+  width: 604px;
+  height: 417px;
+  position: absolute;
+  top: 221px;
+  left: 790px;
+}
+.wbanner .box .img4:hover .board {
+  z-index: 1;
+}
+.wbanner .box .img4 .board {
+  background-color: #2d2a28;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #dba400;
+  width: 250px;
+  height: 86px;
+  text-align: center;
+  position: absolute;
+  top: 95px;
+  left: 474px;
+  border-radius: 5px;
+  z-index: -1;
+}
+.wbanner .box .img4 .board span {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.wbanner .box .img4 .board p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+.wbanner .box .img4 .board a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #dba400;
+  text-decoration: none;
+}
+.wbanner .box .img5 {
+  width: 370px;
+  height: 426px;
+}

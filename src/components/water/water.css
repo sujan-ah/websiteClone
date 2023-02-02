@@ -1,0 +1,52 @@
+.whatwater {
+  margin-top: 113px;
+  margin-bottom: 120px;
+}
+.whatwater .boxmain {
+  width: 922px;
+  margin: 0 auto;
+}
+.whatwater .box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.whatwater .box .text {
+  position: absolute;
+  top: 33px;
+  right: -6px;
+}
+.whatwater .box .text h1 {
+  font-family: serif;
+  font-size: 40px;
+  font-weight: 500;
+  background-color: #fab811;
+  width: 169px;
+  height: 60px;
+  text-align: center;
+  padding-top: 5px;
+  color: #000;
+}
+.whatwater .box .text img {
+  width: 450px;
+  height: 114px;
+  margin-top: 30px;
+}
+
+.whatwater .box .img {
+  width: 540px;
+  height: 253px;
+}
+
+.whatwater p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 35px;
+  color: #000;
+}
+.whatwater span {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}

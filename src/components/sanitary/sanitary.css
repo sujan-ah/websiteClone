@@ -1,0 +1,83 @@
+.whatsanitary {
+  margin-top: 113px;
+  margin-bottom: 120px;
+}
+.whatsanitary .boxmain {
+  width: 922px;
+  margin: 0 auto;
+}
+.whatsanitary .box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.whatsanitary .box .text h1 {
+  font-family: serif;
+  font-size: 40px;
+  font-weight: 500;
+  background-color: #fab811;
+  width: 169px;
+  height: 60px;
+  text-align: center;
+  padding-top: 5px;
+}
+.whatsanitary .box .text h2 {
+  font-family: serif;
+  font-size: 40px;
+  font-weight: 500;
+  background-color: #fab811;
+  width: 269px;
+  height: 60px;
+  text-align: center;
+  padding-top: 5px;
+}
+.whatsanitary .box .text img {
+  width: 233px;
+  height: 193px;
+  margin-top: 30px;
+}
+.whatsanitary .box .img {
+  width: 540px;
+  height: 253px;
+}
+.whatsanitary .box .text img {
+  margin-top: -10px;
+  margin-left: 5px;
+}
+.whatsanitary .box .text .textsani {
+  position: absolute;
+  top: 40px;
+  left: 105px;
+}
+.whatsanitary .box .text .textsani h1 {
+  width: 208px;
+  height: 60px;
+  margin-left: 165px;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #000;
+}
+.whatsanitary .box .text .textsani h2 {
+  width: 273px;
+  height: 60px;
+  margin-left: 100px;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #000;
+}
+
+.whatsanitary p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 35px;
+  color: #000;
+}
+.whatsanitary span {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
