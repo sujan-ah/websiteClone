@@ -10,19 +10,20 @@ const Abanner = () => {
         <div className="img">
           <div className="text">
             <h1>THE TOMORROW SCHOOL</h1>
-            <p>
+            <h5>
               We want to help improve the education environment for children in
               Ethiopia. And the story starts with Alemayehu, my father.
-            </p>
+            </h5>
           </div>
         </div>
-        <div className="img2">
-          <img src="image/9.jpg" alt="" />
+        <div className="img">
+          <img src="image/water.jpg" alt="" />
         </div>
-        <div className="img3">
-          <img src="image/9.jpg" alt="" />
+
+        <div className="img">
+          <img src="image/water.jpg" alt="" />
         </div>
-        <div className="img4">
+        <div className="img">
           <div className="text2">
             <h6>
               While we strive to reach all school children in Ethiopia, we will
@@ -30,13 +31,17 @@ const Abanner = () => {
               Ethiopia. And here is why:
             </h6>
             <p>
-              We want to help improve the education environment for children in
-              Ethiopia. And the story starts with Alemayehu, my father.
+              To us, the Woliso Liben Primary School is not like any other
+              school in Ethiopia. Over 60 years ago, my father Alemayehu
+              Shifferaw, then a 7-year old shepherd boy, had his very first day
+              of school in Woliso. On this day, Alemayehu’s life took an
+              entirely new direction – and a foundation was built for
+              uncountable dreams and opportunities.
             </p>
           </div>
         </div>
 
-        <div className="img5">
+        <div className="img">
           <div className="text3">
             <p>
               <span>Education made my father who he is today: </span>
@@ -55,8 +60,8 @@ const Abanner = () => {
           </div>
         </div>
 
-        <div className="img6">
-          <img src="image/9.jpg" alt="" />
+        <div className="img">
+          <img src="image/water.jpg" alt="" />
         </div>
       </div>
     </section>

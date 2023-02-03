@@ -23,7 +23,9 @@ const Article = () => {
             </p>
           </div>
 
-          <div className="image"></div>
+          <div className="image">
+            <img src="image/articleimg.jpg" alt="" />
+          </div>
         </div>
       </div>
     </section>

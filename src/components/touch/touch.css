@@ -30,7 +30,7 @@
 .touch .box2 .img {
   width: 673px;
   height: 708px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 .touch .box2 .form {
   margin-top: 160px;

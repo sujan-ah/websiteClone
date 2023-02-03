@@ -1,19 +1,19 @@
 import React from "react";
-import "./touch.css";
+import "./contact.css";
 import { Form, Button } from "react-bootstrap";
 
-const Touch = () => {
+const Contact = () => {
   return (
-    <section className="touch">
-      <div className="container">
-        <div className="box">
-          <h3>Get in touch</h3>
-          <p>Contact us. We’d love to hear from you.</p>
-        </div>
+    <section className="contact">
+      <div className="box">
+        <h1>Get in touch</h1>
+        <p>Contact us. We’d love to hear from you.</p>
+      </div>
 
+      <div className="container">
         <div className="box2">
           <div className="img">
-            <img src="image/touchimg.jpg" alt="" />
+            <img src="image/contactimg.jpg" alt="" />
           </div>
 
           <div className="form">
@@ -40,7 +40,7 @@ const Touch = () => {
                   placeholder="Enter your message"
                 />
               </Form.Group>
-              <Button className="btn">Sent</Button>
+              <Button className="btn">Send</Button>
             </Form>
           </div>
         </div>
@@ -49,4 +49,4 @@ const Touch = () => {
   );
 };
 
-export default Touch;
+export default Contact;

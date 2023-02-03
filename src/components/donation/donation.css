@@ -1,0 +1,40 @@
+.donation h6 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.donation .box {
+  display: flex;
+  margin-top: -135px;
+  margin-left: 100px;
+}
+.donation .box .text {
+  margin-top: 170px;
+  margin-left: 70px;
+  width: 540px;
+  height: 48px;
+}
+.donation .box .text h1 {
+  font-family: "Noto Serif Georgian", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #2e353e;
+  margin-bottom: 40px;
+}
+.donation .box .text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #000;
+}
+.donation .box .text span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}

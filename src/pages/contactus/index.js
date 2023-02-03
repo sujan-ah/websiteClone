@@ -1,10 +1,15 @@
 import React from "react";
+import Contact from "../../components/contact/Contact";
+import Footer from "../../components/footer/Footer";
+import Navvbar from "../../components/navbar/Navvbar";
 
 const Contactus = () => {
   return (
-    <div>
-      <h1 className="font-display">Contact Us</h1>
-    </div>
+    <>
+      <Navvbar />
+      <Contact />
+      <Footer />
+    </>
   );
 };
 

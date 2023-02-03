@@ -1,9 +1,14 @@
 import React from "react";
+import Donation from "../../components/donation/Donation";
+import Footer from "../../components/footer/Footer";
+import Navvbar from "../../components/navbar/Navvbar";
 
 const Donate = () => {
   return (
     <div>
-      <h1 className="font-display">Donate Us</h1>
+      <Navvbar />
+      <Donation />
+      <Footer />
     </div>
   );
 };

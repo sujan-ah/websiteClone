@@ -11,8 +11,6 @@ import Navvbar from "./components/navbar/Navvbar";
 function App() {
   return (
     <BrowserRouter>
-      <Navvbar />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<Aboutus />} />

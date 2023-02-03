@@ -1,0 +1,83 @@
+.study {
+  margin-top: 113px;
+}
+.study .boxmain {
+  width: 922px;
+  margin: 0 auto;
+}
+.study .box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.study .box .text {
+  position: absolute;
+  top: 33px;
+  right: -6px;
+}
+
+.study .box .logo {
+  width: 296px;
+  height: 254px;
+  margin-top: -25px;
+}
+
+.study .box .img {
+  width: 540px;
+  height: 253px;
+}
+
+.study p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 35px;
+  color: #000;
+}
+.study span {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.study .box .textsani {
+  position: absolute;
+  top: 30px;
+  left: 477px;
+}
+.study .box .textsani h1 {
+  font-family: serif;
+  font-size: 40px;
+  font-weight: 300;
+  background-color: #fab811;
+  width: 169px;
+  height: 60px;
+  text-align: center;
+  padding-top: 5px;
+  color: #000;
+}
+.study .box .textsani h2 {
+  font-family: serif;
+  font-size: 40px;
+  font-weight: 300;
+  background-color: #fab811;
+  width: 208px;
+  height: 60px;
+  text-align: center;
+  padding-top: 5px;
+  color: #000;
+  margin-top: 20px;
+}
+
+.study p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 35px;
+  color: #000;
+}
+.study span {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
