@@ -8,7 +8,9 @@ const Banner = () => {
       <Carousel.Item className="child">
         <img src="image/1.jpg" alt="First slide" />
         <Carousel.Caption className="textbox">
-          <h3>5 in 10 Children in Ethiopia can't read or write.</h3>
+          <h3>5 in 10 Children</h3>
+          <h4>in Ethiopia can't</h4>
+          <h5>read or write.</h5>
           <p>Join us in our mission to change that.</p>
           <button>Donate</button>
         </Carousel.Caption>
@@ -17,11 +19,10 @@ const Banner = () => {
       <Carousel.Item className="water">
         <img className="d-block w-100" src="image/2.jpg" alt="Second slide" />
 
-        <Carousel.Caption>
-          <h4>
-            Over half of the Ethiopian population lacks access to safe, clean
-            water.
-          </h4>
+        <Carousel.Caption className="waterbox">
+          <h3>Over half of the Ethiopian</h3>
+          <h4>population lacks access</h4>
+          <h5>to safe, clean water.</h5>
           <p>Help us bringing clean water to schools in Ethiopia.</p>
           <button>Donate</button>
         </Carousel.Caption>
@@ -32,10 +33,9 @@ const Banner = () => {
 
         <Carousel.Caption>
           <p>tommorow/ temore/Noun.</p>
-          <h5>
-            A mystical land where 99% of all human productivity, motivation and
-            achievement is stored.
-          </h5>
+          <h3>A mystical land where 99% of all</h3>
+          <h4>human productivity, motivation and</h4>
+          <h5>achievement is stored.</h5>
           <button>What we do</button>
         </Carousel.Caption>
       </Carousel.Item>

@@ -26,8 +26,12 @@
   background-size: 100% 100%;
   display: none !important;
 }
-
+.carousel-inner {
+  z-index: -1;
+}
 .carousel {
+  position: relative;
+  padding-top: 30px;
   margin-bottom: 80px;
 }
 
@@ -35,19 +39,72 @@
   width: 700px;
   font-size: 80px !important;
   position: absolute !important;
-  top: -730px !important;
+  top: -710px !important;
   right: -240px;
   font-family: "Noto Serif Georgian", serif;
   font-weight: 800;
+  animation: 500ms tb;
 }
-
+@keyframes tb {
+  from {
+    transform: translateY(-250px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.child h4 {
+  width: 700px;
+  font-size: 80px !important;
+  position: absolute !important;
+  top: -615px !important;
+  right: -240px;
+  font-family: "Noto Serif Georgian", serif;
+  font-weight: 800;
+  animation: 1s h4tb;
+}
+@keyframes h4tb {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.child h5 {
+  width: 700px;
+  font-size: 80px !important;
+  position: absolute !important;
+  top: -530px !important;
+  right: -240px;
+  font-family: "Noto Serif Georgian", serif;
+  font-weight: 800;
+  animation: 1s h5tb;
+}
+@keyframes h5tb {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 .child p {
   font-size: 41px;
   font-weight: 300;
   position: absolute;
-  top: -425px;
+  top: -440px;
   right: -403px;
   width: 1024px;
+  animation: 1s ptb;
+}
+@keyframes ptb {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 .child button {
   background-color: #fab811;
@@ -56,27 +113,95 @@
   height: 62px;
   border-radius: 5px;
   position: absolute;
-  top: -350px;
+  top: -370px;
   right: -210px;
   font-size: 31px;
   font-weight: 500;
+  animation: 1.5s btb;
+}
+@keyframes btb {
+  from {
+    transform: translateY(-1050px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.water .waterbox {
+  display: flex;
+  justify-content: left;
+}
+.water h3 {
+  width: 1104px;
+  font-size: 80px !important;
+  position: absolute !important;
+  top: -710px !important;
+  left: -150px;
+  font-family: "Noto Serif Georgian", serif;
+  font-weight: 800;
+  animation: 500ms tb;
+}
+@keyframes tb {
+  from {
+    transform: translateY(-250px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 .water h4 {
   width: 1104px;
-  font-size: 80px;
-  position: absolute;
-  top: -750px;
+  font-size: 80px !important;
+  position: absolute !important;
+  top: -615px !important;
   left: -200px;
   font-family: "Noto Serif Georgian", serif;
   font-weight: 800;
+  animation: 1s h4tb;
+}
+@keyframes h4tb {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.water h5 {
+  width: 1104px;
+  font-size: 80px !important;
+  position: absolute !important;
+  top: -520px !important;
+  left: -270px;
+  font-family: "Noto Serif Georgian", serif;
+  font-weight: 800;
+  animation: 1s h5tb;
+}
+@keyframes h5tb {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 .water p {
   font-size: 42px;
   font-weight: 300;
   position: absolute;
-  top: -470px;
-  left: -253px;
+  top: -420px;
+  left: -193px;
   width: 1024px;
+  animation: 1s ptb;
+}
+@keyframes ptb {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 .water button {
   background-color: #fab811;
@@ -85,12 +210,22 @@
   height: 62px;
   border-radius: 5px;
   position: absolute;
-  top: -400px;
-  left: -190px;
+  top: -340px;
+  left: -130px;
   font-size: 31px;
   font-weight: 500;
+  animation: 1.5s btb;
 }
-.land h5 {
+@keyframes btb {
+  from {
+    transform: translateY(-1050px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.land h3 {
   width: 100%;
   font-family: "Roboto", sans-serif;
   font-size: 78px;
@@ -98,6 +233,51 @@
   position: absolute;
   top: -800px;
   color: black;
+  animation: 500ms tb;
+}
+@keyframes tb {
+  from {
+    transform: translateY(-250px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.land h4 {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 78px;
+  font-weight: 600;
+  position: absolute;
+  top: -700px;
+  color: black;
+  animation: 1s h4tb;
+}
+@keyframes h4tb {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.land h5 {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 78px;
+  font-weight: 600;
+  position: absolute;
+  top: -600px;
+  color: black;
+  animation: 1s h5tb;
+}
+@keyframes h5tb {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 .land p {
   font-size: 49px;
@@ -107,6 +287,15 @@
   top: -890px;
   left: 153px;
   width: 1024px;
+  animation: 1s ptb;
+}
+@keyframes ptb {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 .land button {
   background-color: #fab811;
@@ -119,4 +308,13 @@
   left: 500px;
   font-size: 31px;
   font-weight: 500;
+  animation: 1.5s btb;
+}
+@keyframes btb {
+  from {
+    transform: translateY(-1050px);
+  }
+  to {
+    transform: translateY(0);
+  }
 }

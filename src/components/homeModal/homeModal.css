@@ -1,0 +1,68 @@
+.modal-content {
+  margin-top: 110px;
+}
+.modal-header .btn-close {
+  margin-top: -605px !important;
+}
+
+.modal {
+  width: auto;
+}
+.modal .img {
+  width: 444px;
+  height: 241px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.modal h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.modal p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-left: 30px;
+  color: #000;
+  line-height: 30px;
+  width: 444px;
+  height: 90px;
+}
+.modal .form .input {
+  font-size: 14px;
+  width: 444px;
+  height: 40px;
+  border-radius: 0%;
+  background-color: #fff;
+  margin-left: 30px;
+  border: 2px solid #b9b7b7;
+}
+.modal .form .msg {
+  font-size: 14px;
+  width: 444px;
+  height: 40px;
+  border-radius: 0%;
+  background-color: #fff;
+  margin-left: 30px;
+  border: 2px solid #b9b7b7;
+}
+.modal .form .btn {
+  background-color: #fab811;
+  color: #ffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 0%;
+  margin-left: 30px;
+  border: none;
+  width: auto;
+  height: 37px;
+  margin-bottom: 70px;
+}
+.modal .cross {
+  margin-left: 466px;
+  margin-top: 10px;
+}

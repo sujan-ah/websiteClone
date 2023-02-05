@@ -1,7 +1,8 @@
 .wbanner {
   width: 100%;
-  height: 830px;
+  height: 900px;
   background-color: #e0d3c7;
+  padding: 70px 0px;
 }
 .wbanner .box {
   display: flex;

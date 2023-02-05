@@ -1,20 +1,33 @@
 .school {
   margin-bottom: 72px;
 }
-
 .school .box {
   display: flex;
 }
-
-.school .box .left {
+.school .box .vedio {
   width: 49%;
+}
+.school .box .vedio img {
   height: 320px;
   background-color: aquamarine;
   width: 450px;
   margin-left: 180px;
 }
-.school .box .right h2 {
+
+.school .box .right {
   width: 49%;
+  animation: 1.5s txtrl;
+}
+@keyframes txtrl {
+  from {
+    transform: translateX(1050px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.school .box .right h2 {
   font-family: "Paytone One", sans-serif;
   font-size: 40px;
   width: 594px;

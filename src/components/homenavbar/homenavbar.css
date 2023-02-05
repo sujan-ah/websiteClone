@@ -7,3 +7,8 @@
 .navlink .logo {
   color: #fab811;
 }
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  z-index: 1;
+}

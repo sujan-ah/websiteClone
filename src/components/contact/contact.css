@@ -1,12 +1,12 @@
 .contact .box {
   margin-left: 245px;
-  margin-top: 50px;
 }
-
 .contact .box h1 {
   font-family: "Noto Serif Georgian", serif;
   font-size: 40px;
-  font-weight: 800;
+  font-weight: 700;
+  padding-top: 100px;
+  color: #2e353e;
 }
 .contact .box p {
   font-family: "Roboto", sans-serif;

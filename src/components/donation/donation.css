@@ -4,18 +4,19 @@
   font-size: 19px;
   font-weight: 500;
   color: #000;
-  margin-top: 35px;
+  padding-top: 100px;
   margin-bottom: 40px;
+  line-height: 30px;
 }
 
 .donation .box {
   display: flex;
   margin-top: -135px;
-  margin-left: 100px;
+  margin-left: 115px;
 }
 .donation .box .text {
   margin-top: 170px;
-  margin-left: 70px;
+  margin-left: 50px;
   width: 540px;
   height: 48px;
 }

@@ -6,7 +6,9 @@ const School = () => {
     <section className="school">
       <div className="container">
         <div className="box">
-          <div className="left"></div>
+          <div className="vedio">
+            <img src="" alt="" />
+          </div>
 
           <div className="right">
             <h2>The Tomorrow School e.V. What we do</h2>
